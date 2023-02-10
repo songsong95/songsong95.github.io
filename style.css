@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Jua', sans-serif;
+}
+
+body {
+    background-color: #F2DED0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2DED0;
+    position: fixed;
+    max-width: 1000px;
+    width: 95%;
+    top: 0;
+    font-size: 30px;
+    line-height: 50px;
+    
+}
+
+.sj {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.fa-clock {
+    margin-right: 20px;
+}
+
+.darkmode {
+    margin-left: 20px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.darkmode:hover {
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.section-all {
+    background-color: #F9CBBB;
+    margin: auto;
+    max-width: 1000px;
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.my-wrap {
+    height: 700px;
+}
+
+.my-img {
+    float: right;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.favorite-all {
+    height: 700px;
+    margin: 20px;
+}
+
+.favorite-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 30px;
+    background-color: lightgray;
+    height: 300px;
+}
